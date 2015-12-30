@@ -1,0 +1,40 @@
+{
+  "name": "validator-train",
+  "version": "0.0.0",
+  "description": "Flexible and customizable validator",
+  "main": "lib/validate.js",
+  "scripts": {
+    "test": "mocha src/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rexk/validator-train.git"
+  },
+  "keywords": [
+    "validator",
+    "async",
+    "customizable",
+    "flexible"
+  ],
+  "author": {
+    "name": "rexk",
+    "email": "myungsunrex@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexk/validator-train/issues"
+  },
+  "homepage": "https://github.com/rexk/validator-train#readme",
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-core": "^6.3.26",
+    "babel-eslint": "^5.0.0-beta6",
+    "eslint": "^1.10.3",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "lodash.attempt": "^3.3.0",
+    "lodash.forin": "^3.0.2",
+    "lodash.iserror": "^3.0.1"
+  }
+}
